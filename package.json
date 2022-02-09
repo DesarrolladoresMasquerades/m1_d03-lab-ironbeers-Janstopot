@@ -1,14 +1,22 @@
 {
-  "name": "lab-ironbeers",
-  "version": "2.0.0",
+  "name": "express-dynamic-views",
+  "version": "1.0.0",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "dev": "nodemon",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.1",
-    "punkapi-javascript-wrapper": "^1.0.2"
+    "dotenv": "^16.0",
+    "express": "^4.17",
+    "hbs": "^4.2.0",
+    "punkapi-javascript-wrapper": "^1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0"
   }
 }
